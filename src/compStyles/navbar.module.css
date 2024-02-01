@@ -1,0 +1,228 @@
+
+*{
+    
+list-style: 0px;
+padding: 0px;
+}
+
+.phone{
+
+    /* margin-top: px; */
+    height: 20px;
+    background-color: #007aff;
+}
+
+.innerNavBar{
+    max-width: 1500px;
+    font-size: 15px;
+    font-family: Georgia, serif;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+}
+.navBar{
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Roboto;
+    z-index: 1000; /* It used because sliding images comming on nav bar  */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;   
+    color: white; 
+}
+
+
+.linkTag{
+    /* font-size: 10px; */
+    text-decoration: none; 
+    color: white;
+}
+
+.linkTag:hover{
+    text-decoration: none; 
+    color: #007aff;
+    cursor: pointer;
+    
+}
+
+ 
+.navRight{
+display: flex;
+justify-content: space-around;
+width: 60%;
+}
+
+.navRight>div{
+    
+    border: solid transparent;
+    text-align: center;
+   
+    color: white;
+}
+
+.navRight>div:hover{
+    color:#007aff;
+    border-bottom: solid #007aff;
+    transition: border 0.5s;
+}
+
+
+/* ================================================== */
+
+  
+.hamberger{
+    display: none;
+    margin: auto;
+    
+}
+.cross{
+    border: solid red;
+    width: 50px;
+}
+.navdrawer{
+    display: none;
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+    .navBar{
+        box-sizing: border-box;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        
+        
+    }
+    .navLeft{
+      
+        width: 50%;
+        font-size: 14px;
+        line-height: 15px;
+    }
+    
+  
+    .navRight{
+        display: none;
+      
+    }
+
+    .hamberger{
+        overflow: hidden;
+        box-sizing: border-box;
+        text-align:end;
+        width: 30%;     
+        display: block;
+        margin-right: 15px;  
+        background-color: black; 
+    }
+    
+    .navouter{
+        display: flex;
+    }
+    .navbar_menu{ 
+        height: 100vh;
+        text-align: center;
+        box-sizing: border-box;
+        margin-top: 25px;
+        display: block;
+        position: absolute;
+        width: 60%;
+        background-color: #f3f3f3;
+        transition: all 5s;   
+    }
+    .navbar_menu.show {
+        transform: translateX(0); /* Move it back to the original position */
+    }
+    .navbar_menu div{
+       /* margin-top: 20px; */
+       border-bottom: solid #007aff;
+    }
+    .navdrawer{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 920px)
+ {
+    .navBar{ 
+        box-sizing: border-box;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 30px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;   
+    }
+    
+  
+    .navRight{
+        display: none;
+        
+    }
+    .hamberger{
+        /* border: solid green; */
+        text-align:end;
+        width: 50%;     
+        display: block;
+        margin-right: 15px;
+
+         
+    }
+    .navouter{
+        display: flex;
+    }
+    .navbar_menu{ 
+        height: 100vh;
+        /* border: solid yellow; */
+        text-align: center;
+        box-sizing: border-box;
+        margin-top: 30px;
+        display: block;
+        position: absolute;
+        width: 60%;
+        background-color: #f3f3f3;
+
+        
+    }
+    .navbar_menu div{
+       /* margin-top: 20px; */
+       border-bottom: solid #007aff;
+    }
+    .navdrawer{
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 921px) and (max-width: 1220px){
+
+    .navRight{
+        width: 63%;
+    }
+    .navRight>div{
+    
+        border: solid transparent;
+        text-align: center;
+        font-size: 13px;
+    }
+
+
+}
