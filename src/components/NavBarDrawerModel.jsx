@@ -21,7 +21,7 @@ return(
                     <hr/>
                     <div> <Link to="contact"  className={styles.linkTag} spy={true} smooth={true} offset={-70} duration={500} >  <h3>Contact</h3> </Link> </div>
                     <hr/>
-                    <div> <Link to="/"  className={styles.linkTag}  >  <h3>Resume</h3> </Link> </div>
+                    <div> <a href="https://drive.google.com/file/d/1t1Mu2gSaumKBlH_aOplZBDtwG9F2k8Vs/view?usp=sharing"  className={styles.linkTag} target="blank"  >  <h3>Resume</h3> </a> </div>
                     <hr/>
             </div>
         </div>

@@ -118,13 +118,13 @@
 }
 .section3_skills_card{
     /* border: solid red; */
-    line-height: 0px;
+    line-height: 15px;
     padding: 0px;
     
 }
 .section3_skills_img_div{
     overflow: hidden;
-    height: 80px;
+    height: 68px;
 }
 .section3_skills_img_div > img{
     /* border: solid yellow; */
