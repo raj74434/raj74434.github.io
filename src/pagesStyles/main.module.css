@@ -20,7 +20,8 @@
     background: transparent;
     padding-left: 100px;
     padding-top: 100px;
-    height: 58vh;
+    /* height: 70vh; */
+    /* border: solid red; */
 }
 
 .section1_line1{
@@ -33,12 +34,37 @@
     font-size: 30px;
     color: skyblue;
 }
-
+.linkTag{
+    text-decoration: double;
+    color: white;
+    line-height: 2px;
+    background-color: transparent;
+    font-size: 150%;
+}
+.section1_btn{
+    border: solid transparent;
+    border-bottom: solid white;
+    background-color: transparent;
+    margin-top: 50px;
+    padding: 15px 45px;
+    padding-bottom: 0px;
+}
+.section1_btn:hover{
+    color:#007aff ;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-bottom:solid #007aff;
+}
+.linkTag:hover{
+    color: #007aff;
+    transition: all 0.2s;
+}
+/* ================  section 2 =============== */
 .section2{
     box-sizing: border-box;
     margin: auto;
     max-width: 1700px;
-    margin-top: 150px;
+    margin-top: 95px;
     text-align: center;
     padding: 35px 50px;
     padding-top: 35px;
@@ -357,6 +383,7 @@
         background: transparent;
         padding-left: 20px;
         padding-top: 100px;
+        padding-right: 20px;
     }
     
     .section1_line1{
@@ -370,15 +397,23 @@
         color: skyblue;
     }
 
+    .linkTag{
+        font-size: 118%;
+    }
+    .section1_btn{
+        padding: 15px 34px;
+        padding-bottom: 0px;
+    }
+
 /*===== section 2 ============== */
 
 .section2{
         margin: auto;
         max-width: 1700px;
-        margin-top: 150px;
+        margin-top: 88px;
         text-align: center;
         padding: 5px 20px;
-        padding-top: 20px;
+        padding-top: 38px;
         background-color: #1b1e25;
 }
 
@@ -465,20 +500,20 @@
 }
 .section3_skills{
     display: grid;
-    grid-template-columns: repeat(4,6%);
+    grid-template-columns: repeat(4,8%);
     justify-content: space-around;
-    padding:5% 10px;
+    padding:5% 2px;
     row-gap: 18px;
 }
 .section3_skills_card{
     /* border: solid red; */
     line-height: 10px;
     padding: 0px;
-    font-size: 9px;
+    font-size: 50%;
 }
 .section3_skills_img_div{
     overflow: hidden;
-    height: 20px;
+    height: 29px;
 }
 .section3_skills_img_div > img{
     /* border: solid yellow; */
@@ -517,8 +552,7 @@
     justify-content: space-around;
     margin: auto;
     align-items: center;
-    /* justify-content: center; */
-    
+    /* justify-content: center; */  
 }
 
 .project_card{
@@ -731,7 +765,7 @@ display: block;
         background: transparent;
         padding-left: 30px;
         padding-top: 100px;
-        height: 58vh;
+        /* height: 58vh; */
     }
     
     .section1_line1{
@@ -749,11 +783,11 @@ display: block;
         box-sizing: border-box;
         margin: auto;
         max-width: 1700px;
-        margin-top: 150px;
+        margin-top: 45px;
         text-align: center;
-        padding: 35px 25px;
+        padding: 35px 23px;
         padding-left: 8%;
-        padding-top: 35px;
+        padding-top: 15px;
         background-color: #1b1e25;
     }
     .section2_about_heading{

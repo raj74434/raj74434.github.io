@@ -19,6 +19,7 @@ return(
             <h3 className={style.section1_line1}>Hello, my name is</h3>
             <h1 className={style.section1_line2}>Raj Gupta</h1>
             <h3 className={style.section1_line3}>And I'm a Java Backend Developer</h3>
+            <button className={style.section1_btn}><div> <a href="https://drive.google.com/file/d/1t1Mu2gSaumKBlH_aOplZBDtwG9F2k8Vs/view?usp=sharing" className={style.linkTag} target="blank" >  <h3>Resume</h3> </a> </div></button>
         </div>
         {/* === About Me Section ========== */}
         <div className={style.section2}>
