@@ -187,8 +187,8 @@ return(
                  
                     <h4 className={style.project_description}>
                     MediGlow Medicare is a website where user can contact to admin and get 
-                    information of disposable medical equipment.
-                    It is a Solo Project.
+                    information of products.
+                    A Solo Project.
                     </h4>
                 <div>
                     <div className={style.project_btn}>
@@ -241,8 +241,7 @@ return(
                         <div >
                         <h2 className={style.project_title}  >Monday - Clone</h2>
                         <h3 className={style.project_tech_stack} > Tech Stack- HTML , CSS , JavaScript </h3>
-                        <h4 className={style.project_description}> A clone of Monday.com which provides services to other companies and helps in growing business. 
-                        It was cloned in 3 days by 5 team members. Tech stack HTML, CSS, JavaScript.
+                        <h4 className={style.project_description}> A clone of Monday.com which provides services to other companies and helps in growing business.
                         </h4>
                     <div>
                         <div className={style.project_btn}>
